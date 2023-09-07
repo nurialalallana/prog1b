@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<body>
+<script>
+    function ir_a(){
+    let miUrl = "https://www.google.com/search?q=";
+    miUrl += document.miForm_1.busqueda.value;
+    location.href = miUrl;
+
+    }   
+</script>
+
+<form name = miForm_1 action = "javascript:ir_a();" >
+
+Ingres lo que quiera buscar en Google <input type=text name=busqueda size=50>
+
+<p>
+<input type=submit value=BUSCAR>
+
+  </form>
+
+</body>
